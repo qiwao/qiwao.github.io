@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KUMA Lab. | 玖馬巌 Kuma Iwao</title>
+  <meta name="description" content="KUMA Lab. は、玖馬巌 / Kuma Iwao のポートフォリオサイトです。科学、システム、物語を横断して未来社会を探究します。" />
+  <link rel="canonical" href="https://qiwao.github.io/" />
+  <meta property="og:site_name" content="KUMA Lab." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="KUMA Lab. | 玖馬巌 Kuma Iwao" />
+  <meta property="og:description" content="KUMA Lab. は、玖馬巌 / Kuma Iwao のポートフォリオサイトです。科学、システム、物語を横断して未来社会を探究します。" />
+  <meta property="og:url" content="https://qiwao.github.io/" />
+  <meta property="og:image" content="https://qiwao.github.io/assets/ogp.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="KUMA Lab. | 玖馬巌 Kuma Iwao" />
+  <meta name="twitter:description" content="KUMA Lab. は、玖馬巌 / Kuma Iwao のポートフォリオサイトです。科学、システム、物語を横断して未来社会を探究します。" />
+  <meta name="twitter:image" content="https://qiwao.github.io/assets/ogp.png" />
+  <link rel="icon" href="assets/polar-bear-logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <h1>KUMA.Lab</h1>
+    </div>
+<nav class="nav" aria-label="Primary navigation">
+      <a href="#top" class="active">HOME</a>
+      <a href="#works">WORKS</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#about">ABOUT</a>
+    </nav>
+
+    <div class="sidebar-status">
+      <p class="label">Observation Status</p>
+      <p class="status"><span class="dot"></span>Online</p>
+      <p class="label">Archive Access</p>
+      <p class="status">Granted</p>
+      <div class="barcode" aria-hidden="true"></div>
+    </div>
+
+    <div class="sidebar-links">
+      <a href="https://twitter.com/qumaiwao" aria-label="X">𝕏</a>
+      <a href="mailto:q.iwao@live.jp" aria-label="Mail">✉</a>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>KUMA LAB. ARCTIC BASE</p>
+      <p>78.2250° N, 15.6469° E</p>
+    </div>
+  </aside>
+
+  <main class="site-main" id="top">
+    <section class="hero image-hero" aria-label="KUMA Lab. hero visual">
+      <img class="hero-clean" src="assets/hero-clean.png" alt="KUMA Lab. Science, Systems, and Stories. A white bear reading a blue book beside a stack of books." />
+    </section>
+<section class="works-section" id="works">
+      <div class="section-header">
+        <div>
+          <h4>WORKS</h4>
+        </div>
+      </div>
+
+      <div class="works-grid">
+        <article class="work-category" id="science">
+          <div class="category-label">01</div>
+          <h5>Science</h5>
+          <p>
+            サイエンスコミュニケーションや創作に関する学術活動（論文やワークショップ、イベント登壇）
+          </p>
+          <a class="view-more-btn" href="science.html">View More <span>→</span></a>
+        </article>
+
+        <article class="work-category" id="system">
+          <div class="category-label">02</div>
+          <h5>System</h5>
+          <p>
+            サイエンスや創作に関するデータベース、ツール、ゲームなどのデジタルアセット/コンテンツ開発活動
+          </p>
+          <a class="view-more-btn" href="system.html">View More <span>→</span></a>
+        </article>
+
+        <article class="work-category" id="stories">
+          <div class="category-label">03</div>
+          <h5>Stories</h5>
+          <p>
+            小説、及び生成AIを利用した映像等のメディア作品制作活動
+          </p>
+          <a class="view-more-btn" href="stories.html">View More <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-header">
+        <div>
+          <h4>GALLERY</h4>
+        </div>
+      </div>
+
+      <div class="gallery-scroll" aria-label="Gallery thumbnails">
+<button class="gallery-card" type="button" data-full="assets/system-philologia-thumb.png" data-title="Philologia" data-label="SYSTEM">
+          <img src="assets/system-philologia-thumb.png" alt="Philologia" loading="lazy">
+          <span class="gallery-card-meta">SYSTEM</span>
+          <span class="gallery-card-title">Philologia</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="gallery-modal" id="galleryModal" aria-hidden="true">
+      <button class="gallery-modal-close" type="button" aria-label="Close gallery preview">×</button>
+      <button class="gallery-modal-nav gallery-modal-prev" type="button" aria-label="Previous image">‹</button>
+      <button class="gallery-modal-nav gallery-modal-next" type="button" aria-label="Next image">›</button>
+      <div class="gallery-modal-backdrop" data-close="true"></div>
+      <figure class="gallery-modal-content">
+        <img id="galleryModalImage" src="" alt="">
+        <figcaption>
+          <span id="galleryModalLabel"></span>
+          <strong id="galleryModalTitle"></strong>
+        </figcaption>
+      </figure>
+    </div>
+
+    <section class="about-section" id="about">
+      <div class="about-panel">
+        <div class="section-header about-header">
+          <div>
+            <h4>ABOUT</h4>
+            <p>玖馬巌 / Kuma Iwao</p>
+          </div>
+        </div>
+                <p>
+          兼業SF作家。データ分析やDX関連のお仕事をしつつ、創作に関わる活動を通してサイエンスやテクノロジーと人間の可能性を探究しています。<br>
+          1990年生まれ。第11回「星新一賞」一般部門優秀賞受賞。日本SF作家クラブ会員（2026年6月～）。
+        </p>
+        <div class="about-links">
+          <a href="https://twitter.com/qumaiwao">X / Twitter</a>
+          <a href="mailto:q.iwao@live.jp">Mail</a>
+          <a href="https://note.com/qiwao" target="_blank" rel="noopener noreferrer">note</a>
+          <a href="https://www.youtube.com/@Kumaiwao" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://scibaco.net/profile/992" target="_blank" rel="noopener noreferrer">SciBaco</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
