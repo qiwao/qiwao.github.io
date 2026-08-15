@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22172b"/>
+      <stop offset="100%" stop-color="#58364f"/>
+    </linearGradient>
+    <radialGradient id="r" cx="72%" cy="28%" r="50%">
+      <stop offset="0%" stop-color="#f1c98b" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#f1c98b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <rect width="1200" height="800" fill="url(#r)"/>
+  <g opacity=".22" stroke="#ffffff" stroke-width="2" fill="none">
+    <circle cx="920" cy="190" r="92"/>
+    <circle cx="920" cy="190" r="162"/>
+    <path d="M160 620 C320 420, 520 720, 710 470 S950 260, 1060 430"/>
+    <path d="M80 160 H1120 M80 280 H1120 M80 400 H1120 M80 520 H1120"/>
+    <path d="M220 90 V710 M430 90 V710 M640 90 V710 M850 90 V710 M1060 90 V710"/>
+  </g>
+  <rect x="72" y="76" width="1056" height="648" rx="36" fill="#0d1020" opacity=".36" stroke="#ffffff" stroke-opacity=".28"/>
+  <text x="110" y="150" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="34" letter-spacing="4" fill="#f1c98b" opacity=".95">TEAM: KumAIwao</text>
+  <text x="110" y="405" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="72" font-weight="700" fill="#fff">千年の想い</text>
+  <text x="112" y="470" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="30" fill="#fff" opacity=".82">Kyoto AI Literature Award / 30sec CM</text>
+</svg>
